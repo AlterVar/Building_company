@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строительная компания</title>
+</head>
+<body>
+<div class="bg"></div>
+
+<header class="main-header">
+    <div class="container">
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <div id="hamburger" class="hamburglar is-closed">
+                        <div class="burger-icon">
+                            <div class="burger-container">
+                                <span class="burger-bun-top"></span>
+                                <span class="burger-filling"></span>
+                                <span class="burger-bun-bot"></span>
+                            </div>
+                        </div>
+
+                        <!-- svg ring container -->
+                        <div class="burger-ring">
+                            <svg class="svg-ring">
+                                <path class="path" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"
+                                      d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2"/>
+                            </svg>
+                        </div>
+                        <!-- the masked path that animates the fill to the ring -->
+
+                        <svg width="0" height="0">
+                            <mask id="mask">
+                                <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000"
+                                      stroke-miterlimit="10" stroke-width="4"
+                                      d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4"/>
+                            </mask>
+                        </svg>
+                        <div class="path-burger">
+                            <div class="animate-path">
+                                <div class="path-rotation"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="burger-nav is-closed" id="burger-nav">
+                        <div class="nav-container">
+                            <h2 class="burger-nav-title">Меню</h2>
+                            <ul class="burger-list">
+                                <li class="burger-list-item">
+                                    <a href="#">Каталог</a>
+                                </li>
+                                <li class="burger-list-item">
+                                    <a href="#technologies">Технологии</a>
+                                </li>
+                                <li class="burger-list-item">
+                                    <a href="#our-projects">Наши проекты</a>
+                                </li>
+                                <li class="burger-list-item">
+                                    <a href="#production">Производство</a>
+                                </li>
+                                <li class="burger-list-item">
+                                    <a href="#guarantee">Гарантии</a>
+                                </li>
+                                <li class="burger-list-item">
+                                    <a href="#">Отзывы</a>
+                                </li>
+                            </ul>
+                            <div class="socials">
+                                <a href="#">
+                                    <img src="images/instagram.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/telegram.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/youtube.png" alt="">
+                                </a>
+                            </div>
+                            <div class="phone">
+                                <a class="phone-link" href="tel:+380967367281">+380 (96) 73-67-281</a>
+                                <div class="call">
+                                    <div class="call-picture scroll">
+                                        <img src="images/phone-effect.png" alt="">
+                                        <a href="#">Заказать звонок</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </li>
+
+
+                <li class="nav-item">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="House Care">
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="phone">
+                        <a class="phone-link" href="tel:+380967367281">+380 (96) 73-67-281</a>
+                        <div class="call">
+                            <div class="call-picture scroll">
+                                <img src="images/phone-effect.png" alt="">
+                                <a href="#">Заказать звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <section class="hero">
+            <div class="list-absolute scroll" id="scrollDown">
+                <p>Листайте вниз</p>
+                <img src="images/down-arrow.png" alt="">
+            </div>
+            <div class="socials socials-absolute">
+                <a href="#">
+                    <img src="images/instagram.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/telegram.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/youtube.png" alt="">
+                </a>
+            </div>
+            <h1 class="hero-title">Строительство домов
+                и коттеджей под ключ</h1>
+            <p class="hero-description">Сможете переехать в готовый дом уже через 3 месяца</p>
+            <button type="button" class="btn hero-btn scroll">Узнать подробнее</button>
+        </section>
+
+        <section class="projects" id="our-projects">
+            <h2 class="projects-title">Наши проекты</h2>
+            <div class="projects-list">
+                <div class="project-item wow animate__animated animate__fadeInLeft">
+                    <div class="project-images">
+                        <a href="images/projects/projects%20gallery/main1.jpg"><img src="images/projects/main1.png"
+                                                                                    alt=""></a>
+                        <a href="images/projects/projects%20gallery/additional1.jpg"><img
+                                src="images/projects/additional1.png" alt=""></a>
+                        <a href="images/projects/projects%20gallery/additional2.jpg"><img
+                                src="images/projects/additional2.png" alt=""></a>
+                        <a href="images/projects/projects%20gallery/additional3.jpg"><img
+                                src="images/projects/additional3.png" alt=""></a>
+                    </div>
+                    <h3 class="project-title">Modern house 003</h3>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Этот проект представляет собой красивый и удобный одноэтажный дом с многоскатной
+                            кровлей,
+                            эркером и камином на террасе. Его внешний традиционный архитектурный стиль прекрасно
+                            сочетается
+                            с современной практичной планировкой интерьера.
+                        </p>
+                        <ul class="project-char-list">
+                            <li class="project-char-item">
+                                <div>134 м<sup>2</sup></div>
+                            </li>
+                            <li class="project-char-item">
+                                <div>4 спальни</div>
+                            </li>
+                            <li class="project-char-item">
+                                <div>2 санузла</div>
+                            </li>
+                        </ul>
+                        <button class="btn project-btn scroll">Получить консультацию</button>
+                        <a href="files/project.pdf" class="project-download" download>Скачать PDF-план проекта (2,5
+                            мб)</a>
+                    </div>
+                </div>
+                <div class="project-item project-item-last wow animate__animated animate__fadeInRight">
+                    <div class="project-images">
+                        <a href="images/projects/projects%20gallery/main2.jpg"><img src="images/projects/main2.png"
+                                                                                    alt=""></a>
+                        <a href="images/projects/projects%20gallery/additional1.jpg"><img
+                                src="images/projects/additional1.png" alt=""></a>
+                        <a href="images/projects/projects%20gallery/additional2.jpg"><img
+                                src="images/projects/additional2.png" alt=""></a>
+                        <a href="images/projects/projects%20gallery/additional3.jpg"><img
+                                src="images/projects/additional3.png" alt=""></a>
+                    </div>
+                    <h3 class="project-title">Modern house 004</h3>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Компактный и функциональный дом подкупает простотой решений. Простая форма и двухскатная
+                            кровля позволяет вести строительство быстро и достаточно экономично. Комнаты сделаны
+                            максимально просторными за счет маленьких технических и коммуникационных помещений.
+                        </p>
+                        <ul class="project-char-list">
+                            <li class="project-char-item">
+                                <div>145 м<sup>2</sup></div>
+                            </li>
+                            <li class="project-char-item">
+                                <div>3 спальни</div>
+                            </li>
+                            <li class="project-char-item">
+                                <div>2 санузла</div>
+                            </li>
+                        </ul>
+                        <button class="btn project-btn scroll">Получить консультацию</button>
+                        <a href="files/project.pdf" class="project-download" download>Скачать PDF-план
+                            проекта (2,5
+                            мб)</a>
+                    </div>
+                </div>
+
+                <div class="hidden-project-items is-closed" id="hiddenProjects">
+                    <div class="project-item wow animate__animated animate__fadeInLeft">
+                        <div class="project-images">
+                            <a href="images/projects/projects%20gallery/main1.jpg"><img src="images/projects/main1.png"
+                                                                                        alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional1.jpg"><img
+                                    src="images/projects/additional1.png" alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional2.jpg"><img
+                                    src="images/projects/additional2.png" alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional3.jpg"><img
+                                    src="images/projects/additional3.png" alt=""></a>
+                        </div>
+                        <h3 class="project-title">Modern house 003</h3>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Этот проект представляет собой красивый и удобный одноэтажный дом с многоскатной
+                                кровлей,
+                                эркером и камином на террасе. Его внешний традиционный архитектурный стиль прекрасно
+                                сочетается
+                                с современной практичной планировкой интерьера.
+                            </p>
+                            <ul class="project-char-list">
+                                <li class="project-char-item">
+                                    <div>134 м<sup>2</sup></div>
+                                </li>
+                                <li class="project-char-item">
+                                    <div>4 спальни</div>
+                                </li>
+                                <li class="project-char-item">
+                                    <div>2 санузла</div>
+                                </li>
+                            </ul>
+                            <button class="btn project-btn scroll">Получить консультацию</button>
+                            <a href="files/project.pdf" class="project-download" download>Скачать PDF-план проекта (2,5
+                                мб)</a>
+                        </div>
+                    </div>
+                    <div class="project-item wow animate__animated animate__fadeInRight">
+                        <div class="project-images">
+                            <a href="images/projects/projects%20gallery/main1.jpg"><img src="images/projects/main1.png"
+                                                                                        alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional1.jpg"><img
+                                    src="images/projects/additional1.png" alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional2.jpg"><img
+                                    src="images/projects/additional2.png" alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional3.jpg"><img
+                                    src="images/projects/additional3.png" alt=""></a>
+                        </div>
+                        <h3 class="project-title">Modern house 004</h3>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Компактный и функциональный дом подкупает простотой решений. Простая форма и двухскатная
+                                кровля позволяет вести строительство быстро и достаточно экономично. Комнаты сделаны
+                                максимально просторными за счет маленьких технических и коммуникационных помещений.
+                            </p>
+                            <ul class="project-char-list">
+                                <li class="project-char-item">
+                                    <div>145 м<sup>2</sup></div>
+                                </li>
+                                <li class="project-char-item">
+                                    <div>3 спальни</div>
+                                </li>
+                                <li class="project-char-item">
+                                    <div>2 санузла</div>
+                                </li>
+                            </ul>
+                            <button class="btn project-btn scroll">Получить консультацию</button>
+                            <a href="files/project.pdf" class="project-download" download>Скачать PDF-план проекта (2,5
+                                мб)</a>
+                        </div>
+                    </div>
+                    <div class="project-item project-item-last wow animate__animated animate__fadeInLeft">
+                        <div class="project-images">
+                            <a href="images/projects/projects%20gallery/main1.jpg"><img src="images/projects/main1.png"
+                                                                                        alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional1.jpg"><img
+                                    src="images/projects/additional1.png" alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional2.jpg"><img
+                                    src="images/projects/additional2.png" alt=""></a>
+                            <a href="images/projects/projects%20gallery/additional3.jpg"><img
+                                    src="images/projects/additional3.png" alt=""></a>
+                        </div>
+                        <h3 class="project-title">Modern house 004</h3>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Компактный и функциональный дом подкупает простотой решений. Простая форма и двухскатная
+                                кровля позволяет вести строительство быстро и достаточно экономично. Комнаты сделаны
+                                максимально просторными за счет маленьких технических и коммуникационных помещений.
+                            </p>
+                            <ul class="project-char-list">
+                                <li class="project-char-item">
+                                    <div>145 м<sup>2</sup></div>
+                                </li>
+                                <li class="project-char-item">
+                                    <div>3 спальни</div>
+                                </li>
+                                <li class="project-char-item">
+                                    <div>2 санузла</div>
+                                </li>
+                            </ul>
+                            <button class="btn project-btn scroll">Получить консультацию</button>
+                            <a href="files/project.pdf" class="project-download" download>Скачать PDF-план проекта (2,5
+                                мб)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="show-more-projects" id="moreProjects">
+                    <p>Посмотреть ещё 3 проекта</p>
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M7 10L12 15L17 10" stroke="#89898a" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="technologies" id="technologies">
+            <h2 class="technologies-title">Технологии строительства</h2>
+            <div class="tech-container">
+                <img src="images/technologies/house.png" alt="Конструкция дома">
+                <ul class="tech-list">
+                    <li class="tech-item tech-item1 wow animate__animated animate__fadeIn">
+                        <span class="outer"><span class="inner"></span></span>
+                        <svg class="tech1"
+                             xmlns="http://www.w3.org/2000/svg"
+                             width="205.5px" height="18.5px">
+                            <path fill-rule="evenodd" stroke="rgb(236, 198, 107)" stroke-width="1px"
+                                  stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                  d="M203.720,17.499 L193.201,4.111 L0.513,2.055 "/>
+                        </svg>
+                        <div class="tech-item-content">
+                            <h3 class="tech-item-title">Неразрывный каркас</h3>
+                            <p class="tech-item-description">Монтаж стен этажей внутри дома и по всему периметру
+                                выполняется единым массивом.</p>
+                        </div>
+                    </li>
+                    <li class="tech-item tech-item2 wow animate__animated animate__fadeIn" data-wow-delay="1s">
+                        <span class="outer"><span class="inner"></span></span>
+                        <svg class="tech2"
+                             xmlns="http://www.w3.org/2000/svg"
+                             width="105.5px" height="20.5px">
+                            <path fill-rule="evenodd" stroke="rgb(236, 198, 107)" stroke-width="1px"
+                                  stroke-linecap="butt"
+                                  stroke-linejoin="miter" fill="none"
+                                  d="M104.500,1.500 L91.500,19.500 L0.500,18.500 "/>
+                        </svg>
+                        <div class="tech-item-content">
+                            <h3 class="tech-item-title">Диагональный раскос</h3>
+                            <p class="tech-item-description">Система диагональных раскосов позволяет создать оптимальный
+                                вентиляционный зазор для
+                                капитальных стен и наружной отделки</p>
+                        </div>
+                    </li>
+                    <li class="tech-item tech-item3 wow animate__animated animate__fadeIn" data-wow-delay="2s">
+                        <span class="outer"><span class="inner"></span></span>
+                        <svg class="tech3"
+                             xmlns="http://www.w3.org/2000/svg"
+                             width="96.5px" height="19.5px">
+                            <path fill-rule="evenodd" stroke="rgb(236, 198, 107)" stroke-width="1px"
+                                  stroke-linecap="butt"
+                                  stroke-linejoin="miter" fill="none"
+                                  d="M1.500,0.500 L13.500,17.500 L95.500,16.500 "/>
+                        </svg>
+                        <div class="tech-item-content">
+                            <h3 class="tech-item-title">Сборка силовых узлов</h3>
+                            <p class="tech-item-description">Основные силовые узлы наших домов оцинкованы, что позволяет
+                                быть уверенными в
+                                исключительной прочности и долговечности конструкции</p>
+                        </div>
+                    </li>
+                    <li class="tech-item tech-item4 wow animate__animated animate__fadeIn" data-wow-delay="3s">
+                        <span class="outer"><span class="inner"></span></span>
+                        <svg class="tech4"
+                             xmlns="http://www.w3.org/2000/svg"
+                             width="213.5px" height="28.5px">
+                            <path fill-rule="evenodd" stroke="rgb(236, 198, 107)" stroke-width="1px"
+                                  stroke-linecap="butt"
+                                  stroke-linejoin="miter" fill="none"
+                                  d="M1.500,0.500 L15.500,26.500 L212.500,24.500 "/>
+                        </svg>
+                        <div class="tech-item-content">
+                            <h3 class="tech-item-title">Плитная ветрозащита</h3>
+                            <p class="tech-item-description">Используемая влагостойкая ветрозащитная плита обеспечивает
+                                дополнительную шумоизоляцию
+                                стен</p>
+                        </div>
+                    </li>
+                    <li class="tech-item tech-item5 wow animate__animated animate__fadeIn" data-wow-delay="4s">
+                        <span class="outer"><span class="inner"></span></span>
+                        <svg class="tech5"
+                             xmlns="http://www.w3.org/2000/svg"
+                             width="140.5px" height="17.5px">
+                            <path fill-rule="evenodd" stroke="rgb(236, 198, 107)" stroke-width="1px"
+                                  stroke-linecap="butt"
+                                  stroke-linejoin="miter" fill="none"
+                                  d="M0.500,15.677 L19.428,0.500 L139.500,1.500 "/>
+                        </svg>
+                        <div class="tech-item-content">
+                            <h3 class="tech-item-title">5 камерные окна</h3>
+                            <p class="tech-item-description">Обеспечивает исключительную сохранность тепла в доме</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="steps" id="production">
+            <h2 class="steps-title">6 шагов к вашему новому дому</h2>
+
+            <ol class="steps-list">
+                <li class="step wow animate__animated animate__fadeIn">
+                    <span class="step-number">01</span>
+                    <div class="step-content">
+                        <div class="step-img">
+                            <img src="images/steps/step1.png" alt="">
+                        </div>
+                        <div class="step-text">
+                            <h3 class="step-title">
+                                Заявка на сайте
+                            </h3>
+                            <p class="step-description">
+                                Вы <a href="#" class="scroll">оставляете заявку</a> на сайте, или звоните нам +380 (96) 73-67-281
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="step wow animate__animated animate__fadeIn" data-wow-delay="1s">
+                    <span class="step-number">02</span>
+                    <div class="step-content">
+                        <div class="step-img">
+                            <img src="images/steps/step2.png" alt="">
+                        </div>
+                        <div class="step-text">
+                            <h3 class="step-title">Звонок менеджера</h3>
+                            <p class="step-description">Мы связываемся с вами для уточнения деталей и выбираем время для
+                                встречи</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="step wow animate__animated animate__fadeIn" data-wow-delay="2s">
+                    <span class="step-number">03</span>
+                    <div class="step-content">
+                        <div class="step-img">
+                            <img src="images/steps/step3.png" alt="">
+                        </div>
+                        <div class="step-text">
+                            <h3 class="step-title">
+                                Встреча
+                            </h3>
+                            <p class="step-description">
+                                Встречаемся на вашем участке и делаем все необходимые замеры
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="step wow animate__animated animate__fadeIn" data-wow-delay="3s">
+                    <span class="step-number">04</span>
+                    <div class="step-content">
+                        <div class="step-img">
+                            <img src="images/steps/step4.png" alt="">
+                        </div>
+                        <div class="step-text">
+                            <h3 class="step-title">
+                                Договор
+                            </h3>
+                            <p class="step-description">
+                                Заключаем договор с четко указанными сроками
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="step wow animate__animated animate__fadeIn" data-wow-delay="4s">
+                    <span class="step-number">05</span>
+                    <div class="step-content">
+                        <div class="step-img">
+                            <img src="images/steps/step5.png" alt="">
+                        </div>
+                        <div class="step-text">
+                            <h3 class="step-title">
+                                Строительство
+                            </h3>
+                            <p class="step-description">
+                                Наша бригада приступает к выполнению работ
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="step wow animate__animated animate__fadeIn" data-wow-delay="5s">
+                    <span class="step-number">06</span>
+                    <div class="step-content">
+                        <div class="step-img">
+                            <img src="images/steps/step6.png" alt="">
+                        </div>
+                        <div class="step-text">
+                            <h3 class="step-title">
+                                Ваш дом
+                            </h3>
+                            <p class="step-description">
+                                Вы заезжаете в свой новый дом!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="slider">
+            <h2 class="section-title slider-title">Построили более 200&nbspдомов&nbspза&nbsp10&nbspлет</h2>
+            <div class="slider-wrapper center">
+                <div class="slider-item">
+                    <figure class="image">
+                        <img src="images/slider/small/slide1.png" alt="...">
+                        <figcaption class="image-description">
+                            <div class="left">
+                                <p>Modern house 005</p>
+                                <p>Киевская обл., г. Борова, 15</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right">
+                                <p>Габариты: <span>8,4 м Х 10,5 м</span></p>
+                                <p>Площадь: <span>154 м<sup>2</sup></span></p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slider-item">
+                    <figure class="image">
+                        <img src="images/slider/small/slide2.png" alt="...">
+                        <figcaption class="image-description">
+                            <div class="left">
+                                <p>Modern house 005</p>
+                                <p>Киевская обл., г. Борова, 15</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right">
+                                <p>Габариты: <span>8,4 м Х 10,5 м</span></p>
+                                <p>Площадь: <span>154 м<sup>2</sup></span></p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slider-item">
+                    <figure class="image">
+                        <img src="images/slider/small/slide3.png" alt="...">
+                        <figcaption class="image-description">
+                            <div class="left">
+                                <p>Modern house 005</p>
+                                <p>Киевская обл., г. Борова, 15</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right">
+                                <p>Габариты: <span>8,4 м Х 10,5 м</span></p>
+                                <p>Площадь: <span>154 м<sup>2</sup></span></p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slider-item">
+                    <figure class="image">
+                        <img src="images/slider/small/slide4.jpg" alt="...">
+                        <figcaption class="image-description">
+                            <div class="left">
+                                <p>Modern house 005</p>
+                                <p>Киевская обл., г. Борова, 15</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right">
+                                <p>Габариты: <span>8,4 м Х 10,5 м</span></p>
+                                <p>Площадь: <span>154 м<sup>2</sup></span></p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slider-item">
+                    <figure class="image">
+                        <img src="images/slider/small/slide5.jpg" alt="...">
+                        <figcaption class="image-description">
+                            <div class="left">
+                                <p>Modern house 005</p>
+                                <p>Киевская обл., г. Борова, 15</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="right">
+                                <p>Габариты: <span>8,4 м Х 10,5 м</span></p>
+                                <p>Площадь: <span>154 м<sup>2</sup></span></p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment" id="guarantee">
+            <h2 class="section-title payment-title">Гарантии и&nbspусловия&nbspоплаты</h2>
+            <div class="guarantee">
+                <div class="guarantee-item wow animate__animated animate__fadeInLeft">
+                    <div class="guarantee-image">
+                        <img src="images/guarantee/calendar.png" alt="">
+                    </div>
+                    <div class="guarantee-text">
+                        <h3>Гарантия сроков</h3>
+                        <p>Юридическая гарантия сроков.</p>
+                        <p>До 0.1 % от суммы за каждый день просрочки</p>
+                    </div>
+                </div>
+                <div class="guarantee-item wow animate__animated animate__fadeInRight">
+                    <div class="guarantee-image">
+                        <img src="images/guarantee/insurance.png" alt="">
+                    </div>
+                    <div class="guarantee-text">
+                        <h3>Страховка</h3>
+                        <p>Гарантия 10 лет. Страховка дома. Обработка дома. Сервисное обслуживание</p>
+                    </div>
+                </div>
+            </div>
+            <div class="conditions">
+                <div class="conditions-item wow animate__animated animate__fadeInBottomLeft">
+                    <div class="conditions-image">
+                        <img src="images/guarantee/1.png" alt="">
+                    </div>
+                    <div class="conditions-text">
+                        <h3>Гарантия фиксированной сметы</h3>
+                        <p>Все непредсказуемые расходы компенсируем за свой счет</p>
+                    </div>
+                </div>
+                <div class="conditions-item wow animate__animated animate__fadeInUp">
+                    <div class="conditions-image">
+                        <img src="images/guarantee/2.png" alt="">
+                    </div>
+                    <div class="conditions-text">
+                        <h3>Без посредников</h3>
+                        <p>Мы сами выполняем все работы и несем за них ответственность</p>
+                    </div>
+                </div>
+                <div class="conditions-item wow animate__animated animate__fadeInBottomRight">
+                    <div class="conditions-image">
+                        <img src="images/guarantee/3.png" alt="">
+                    </div>
+                    <div class="conditions-text">
+                        <h3>Оплата по факту</h3>
+                        <p>Оплата всех работ по факту их выполнения</p>
+                    </div>
+                </div>
+            </div>
+            <a href="files/project.pdf" class="guarantee-download" download>Скачать PDF-пример договора
+                (1,3 мб)</a>
+        </section>
+
+        <section class="consult" id="consult">
+            <div class="consult-image">
+                <img src="images/projects/main2.png" alt="">
+            </div>
+            <div class="form-text">
+                <h2 class="consult-title">Получите индивидуальную
+                    консультацию</h2>
+                <form class="form consult-form">
+                    <div class="consult-input-container">
+                        <input class="consult-input" id="input-name" type="text" placeholder="Ваше имя" name="name">
+                        <div class="error-info">Необходимо ввести имя</div>
+                    </div>
+                    <div class="consult-input-container">
+                        <input class="consult-input form-phone" id="input-phone" type="tel" placeholder="Ваш телефон"
+                               name="phone">
+                        <div class="error-info">Необходимо ввести номер телефона</div>
+                    </div>
+                    <button id="form-btn" class="btn form-btn" type="button">Нужна консультация</button>
+                    <div class="confirm-container">
+                        <div class="confirm" id="input-container">
+                            <input class="confirm-input" id="confirm" type="checkbox">
+                            <label for="confirm">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="tick">
+                                    <path d="M223.9 329.7c-2.4 2.4-5.8 4.4-8.8 4.4s-6.4-2.1-8.9-4.5l-56-56 17.8-17.8 47.2 47.2L340 177.3l17.5 18.1-133.6 134.3z"
+                                          fill="#ffffff" class="color000000 svgShape"></path>
+                                </svg>
+                                <a href="#">Нажимая на кнопку, я даю согласие на обработку
+                                    персональных
+                                    данных и соглашаюсь с <span>политикой конфиденциальности</span></a></label>
+                        </div>
+                        <div class="error-info">Подтвердите согласие на обработку персональных данных</div>
+                    </div>
+                </form>
+            </div>
+            <div class="approved none">
+                <p>Спасибо, мы свяжемся с Вами</p>
+                <p>в ближайшее время</p>
+            </div>
+        </section>
+    </div>
+    <section class="map">
+        <div class="container">
+            <div class="map-text">
+                <h2 class="map-title">Запишитесь
+                    на экскурсию</h2>
+                <p class="map-description">В готовые дома, чтобы лично убедиться в качестве нашей работы</p>
+                <button class="map-btn" type="button" id="map-btn">Записаться</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="reg-form closed">
+    <div class="popup-container">
+        <div class="close" id="popup-close">
+            <?xml version="1.0" ?>
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <title/>
+                <g id="cross">
+                    <line class="cls-1" x1="7" x2="25" y1="7" y2="25"/>
+                    <line class="cls-1" x1="7" x2="25" y1="25" y2="7"/>
+                </g>
+            </svg>
+        </div>
+        <div class="form-text">
+            <h2 class="reg-form-title">Пожалуйста, оставьте свои данные, чтобы мы могли связаться с вами и
+                уточнить детали предстоящей экскурсии</h2>
+            <form class="registration-form">
+                <div class="consult-input-container">
+                    <input class="consult-input" id="reg-name" type="text" placeholder="Ваше имя" name="name">
+                    <div class="error-info">Необходимо ввести имя</div>
+                </div>
+                <div class="consult-input-container">
+                    <input class="consult-input form-phone" id="reg-phone" type="tel" placeholder="Ваш телефон"
+                           name="phone">
+                    <div class="error-info">Необходимо ввести номер телефона</div>
+                </div>
+                <button id="reg-btn" class="btn form-btn" type="button">Записаться</button>
+                <div class="confirm-container">
+                    <div class="confirm" id="reg-container">
+                        <input class="confirm-input" id="reg-confirm" type="checkbox">
+                        <label for="reg-confirm">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="tick">
+                                <path d="M223.9 329.7c-2.4 2.4-5.8 4.4-8.8 4.4s-6.4-2.1-8.9-4.5l-56-56 17.8-17.8 47.2 47.2L340 177.3l17.5 18.1-133.6 134.3z"
+                                      fill="#ffffff" class="color000000 svgShape"></path>
+                            </svg>
+                            <a href="#">Нажимая на кнопку, я даю согласие на обработку персональных
+                            данных и соглашаюсь с <span>политикой конфиденциальности</span></a></label>
+                    </div>
+                    <div class="error-info">Подтвердите согласие на обработку персональных данных</div>
+                </div>
+            </form>
+        </div>
+        <div class="approved none">
+            <p>Спасибо, мы свяжемся с Вами</p>
+            <p>в ближайшее время</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="address">
+            <p class="footer-address">г. Киев, бульвар Кольцова, 14-Ж</p>
+            <p class="footer-time">Пн-Пт: 10:00 -19:00</p>
+        </div>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+            <div class="socials">
+                <a href="#">
+                    <img src="images/instagram.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/telegram.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/youtube.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="phone">
+            <a class="phone-link" href="tel:+380967367281">+380 (96) 73-67-281</a>
+            <div class="call">
+                <div class="call-picture scroll">
+                    <img src="images/phone-effect.png" alt="">
+                    <a href="#">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/jquery.inputmask.bundle.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="../node_modules/slick-carousel/slick/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
